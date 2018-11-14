@@ -1,1 +1,23 @@
 /* 1 - Clean UP */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+ul li{
+  list-style:none
+}
+
+.bordas {
+  border: 2px solid red;
+}
+
+/* END:: 1 - Clean UP */
