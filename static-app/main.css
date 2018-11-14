@@ -80,7 +80,18 @@ ul li {
   padding: 1rem 3rem 3rem;
 }
 
-.cervejas-filtro-input {}
+.cervejas-filtro-block{
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.cervejas-filtro-input {
+  padding: .5rem .8rem;
+  border-radius: 1rem;
+  border: 2px solid #c7c7c7;
+  width: 30rem;
+  outline: none;
+}
 
 .cervejas-lista {
   display: flex;
