@@ -1,11 +1,10 @@
 <div class="cervejas">
   <div class="cervejas-filtro-block">
-    <input #filtro (keyup)="onSelecionarCerveja(filtro.value)" class="cervejas-filtro-input" type="text" placeholder="Eu quero uma...">
+    <input #filtro (keyup)="onFiltraCervejas(filtro.value)" class="cervejas-filtro-input" type="text" placeholder="Eu quero uma...">
   </div>
   <ul class="cervejas-lista">
     <li *ngFor="let cerveja of cervejasListaFiltrada" class="cervejas-lista-item">
-      <app-cerveja [cerveja]="cerveja"></app-cerveja>
+      <app-cerveja (selecionouCerveja)="onSelecionouCerveja($event)" [cerveja]="cerveja"></app-cerveja>
     </li>
   </ul>
-
 </div>

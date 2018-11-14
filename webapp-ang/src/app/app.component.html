@@ -1,7 +1,11 @@
 <main class="app">
+
   <app-header></app-header>
-  <app-cerveja-selecionada></app-cerveja-selecionada>
-  <app-cervejas></app-cervejas>
+
+  <app-cerveja-selecionada [cerveja]="cervejaSelecionada"></app-cerveja-selecionada>
+
+  <app-cervejas (selecionouCerveja)="onSelecionouCerveja($event)"></app-cervejas>
+
 </main>
 
 

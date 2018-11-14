@@ -1,26 +1,31 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, AfterContentInit, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-cervejas',
   templateUrl: './cervejas.component.html',
   styleUrls: ['./cervejas.component.css']
 })
-export class CervejasComponent implements OnInit {
+export class CervejasComponent implements OnInit, AfterViewInit {
 
   cervejasLista = [];
   cervejasListaFiltrada = [];
 
+  @Output() selecionouCerveja = new EventEmitter();
+
+
   ngOnInit() {
-    console.log(CERVEJAS)
     this.cervejasLista = CERVEJAS;
     this.cervejasListaFiltrada = this.cervejasLista;
   }
 
-  onSelecionarCerveja(filtro) {
+  onFiltraCervejas(filtro) {
     this.cervejasListaFiltrada = this.cervejasLista
       .filter(cerveja => cerveja.name.toLowerCase().includes(filtro.toLowerCase()));
   }
 
+  onSelecionouCerveja(cerveja) {
+    this.selecionouCerveja.emit(cerveja)
+  }
 
 }
 

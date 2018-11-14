@@ -1,11 +1,12 @@
 <div class="cerveja-selecionada-block">
-  <div class="cerveja-selecionada">
+  <div *ngIf="cerveja" class="cerveja-selecionada">
+    <img class="cerveja-selecionada-img" [src]="cerveja?.image_url" alt="cerveja selecionada">
 
-    <img class="cerveja-selecionada-img"
-      [src]="imgUrl" alt="cerveja selecionada">
+    <div class="cerveja-selecionada-nome">{{cerveja?.name}}</div>
 
-    <div class="cerveja-selecionada-nome">{{nome}}</div>
-
-    <div class="cerveja-selecionada-label">{{slogan}}</div>
+    <div class="cerveja-selecionada-label">{{cerveja?.tagline}}</div>
+  </div>
+  <div *ngIf="!cerveja">
+    Selecione uma cerveja
   </div>
 </div>
