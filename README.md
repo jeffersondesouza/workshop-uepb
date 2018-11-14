@@ -24,6 +24,11 @@
 
 Todos os requisitos necessários para o workshop estão instalado
 
+
+# OBSERVAÇÃO
+Para o dia do workshop basta baixar o zip deste repositório clicando no botão "Clone or Download" e me "Dowload ZIP"
+
+
 ## Extra
 Caso ja queria fuçar o angular, crie um novo projeto abrindo o prompt em uma pasta de sua escolha e dê o comando:
 
@@ -37,3 +42,5 @@ Ao fim do processo NÃO feche o promtp, nele faça o comando `cd nome-do-meu-pro
 
  Mais informações e tutoriais na documentação do [Angular](https://angular.io/guide/quickstartc). 
 
+
+=) 
