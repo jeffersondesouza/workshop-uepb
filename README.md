@@ -37,7 +37,3 @@ Ao fim do processo NÃO feche o promtp, nele faça o comando `cd nome-do-meu-pro
 
  Mais informações e tutoriais na documentação do [Angular](https://angular.io/guide/quickstartc). 
 
-
-
-
-
