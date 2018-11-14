@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+/* 1 - Clean UP */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul li {
+  list-style: none
+}

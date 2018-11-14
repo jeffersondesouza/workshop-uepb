@@ -21,8 +21,10 @@
 
   ``npm install -g @angular/cli``
 
+# VS Code
+  Editor de códigos da microsoft, um dos melhores do mercado e é grátis
 
-Todos os requisitos necessários para o workshop estão instalado
+Todos os requisitos necessários para o workshop estão instalado [BAIXAR](https://code.visualstudio.com/download)
 
 
 # OBSERVAÇÃO
