@@ -80,7 +80,7 @@ ul li {
   padding: 1rem 3rem 3rem;
 }
 
-.cervejas-filtro-block{
+.cervejas-filtro-block {
   text-align: center;
   margin: 1.5rem;
 }
@@ -104,7 +104,7 @@ ul li {
 }
 
 .cerveja {
-  padding: 1rem;
+  padding: .5rem;
   width: 10rem;
   height: 10rem;
   transition: all .5s;
@@ -114,19 +114,22 @@ ul li {
 .cerveja:hover {
   background-color: #f1f1f1;
   cursor: pointer;
-  width: 11rem;
-  height: 11rem;
+  width: 12rem;
+  height: 12rem;
 }
 
 .cerveja-img-block {
   text-align: center;
+  height: 7rem;
 }
 
 .cerveja-img {
-  width: 40%;
+  height: 6.5rem;
+  width: 2rem;
 }
 
 .cerveja-nome {
+  height: 2rem;
   color: #a7a7a7;
   font-size: .9rem;
 }
