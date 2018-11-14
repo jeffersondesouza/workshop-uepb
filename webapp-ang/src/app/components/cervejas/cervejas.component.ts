@@ -5,7 +5,7 @@ import { Component, OnInit, Output, EventEmitter, AfterContentInit, AfterViewIni
   templateUrl: './cervejas.component.html',
   styleUrls: ['./cervejas.component.css']
 })
-export class CervejasComponent implements OnInit, AfterViewInit {
+export class CervejasComponent implements OnInit {
 
   cervejasLista = [];
   cervejasListaFiltrada = [];
