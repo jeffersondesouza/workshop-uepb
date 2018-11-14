@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CervejaSelecionadaComponent } from './components/cerveja-selecionada/cerveja-selecionada.component';
 import { CervejasComponent } from './components/cervejas/cervejas.component';
+import { CervejaComponent } from './components/cerveja/cerveja.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { CervejasComponent } from './components/cervejas/cervejas.component';
     AppComponent,
     HeaderComponent,
     CervejaSelecionadaComponent,
-    CervejasComponent
+    CervejasComponent,
+    CervejaComponent
   ],
   imports: [
     BrowserModule
