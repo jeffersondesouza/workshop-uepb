@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './cerveja-selecionada.component.html',
   styleUrls: ['./cerveja-selecionada.component.css']
 })
-export class CervejaSelecionadaComponent implements OnInit {
+export class CervejaSelecionadaComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+  imgUrl = 'https://images.punkapi.com/v2/keg.png';
+  nome = 'Buzz';
+  slogan = 'Reall Bitter Experience';
 
 }

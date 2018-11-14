@@ -1,7 +1,11 @@
 <div class="cerveja-selecionada-block">
   <div class="cerveja-selecionada">
-    <img id="js-img-selected" class="cerveja-selecionada-img" src="https://images.punkapi.com/v2/keg.png" alt="cerveja selecionada">
-    <div class="cerveja-selecionada-nome">Buzz</div>
-    <div class="cerveja-selecionada-label"> Reall Bitter Experience</div>
+
+    <img class="cerveja-selecionada-img"
+      [src]="imgUrl" alt="cerveja selecionada">
+
+    <div class="cerveja-selecionada-nome">{{nome}}</div>
+
+    <div class="cerveja-selecionada-label">{{slogan}}</div>
   </div>
 </div>
