@@ -11,7 +11,6 @@ const cervejaSelectedElement = document.getElementById('js-img-selected');
 
 document.getElementById('c1')
   .addEventListener('click', function () {
-    console.log();
     cervejaSelectedElement.src = img1;
   });
 
