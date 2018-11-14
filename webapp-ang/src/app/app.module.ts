@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
+import { CervejaSelecionadaComponent } from './components/cerveja-selecionada/cerveja-selecionada.component';
+import { CervejasComponent } from './components/cervejas/cervejas.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    CervejaSelecionadaComponent,
+    CervejasComponent
   ],
   imports: [
     BrowserModule
