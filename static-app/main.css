@@ -1,0 +1,132 @@
+/* 1 - Clean UP */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul li {
+  list-style: none
+}
+
+.bordas {
+  border: 2px solid red;
+}
+
+/* END:: 1 - Clean UP */
+
+/* Init STYLE */
+
+.header {
+  background-color: #5d5d5d;
+  background-image: url('./bg_home.jpg');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 2rem 1rem;
+  box-shadow: 1px 1px 1px #000000;
+}
+
+.header-titulo {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.header-subtitulo {
+  font-size: .9rem;
+  text-align: right
+}
+
+.cerveja-selecionada-block {
+  padding: 2rem;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cerveja-selecionada {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cerveja-selecionada-img {
+  width: 200px;
+}
+
+.cerveja-selecionada-nome {
+  color: #a7a7a7;
+  font-weight: bold;
+}
+
+.cerveja-selecionada-label {
+  color: #c7c7c7;
+}
+
+.cervejas {
+  background-color: #ececec;
+  padding: 1rem 3rem 3rem;
+}
+
+.cervejas-filtro-block{
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.cervejas-filtro-input {
+  padding: .5rem .8rem;
+  border-radius: 1rem;
+  border: 2px solid #c7c7c7;
+  width: 30rem;
+  outline: none;
+}
+
+.cervejas-lista {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cervejas-lista-item {
+  /* float: left; */
+  margin: 1rem;
+}
+
+.cerveja {
+  padding: 1rem;
+  width: 10rem;
+  height: 10rem;
+  transition: all .5s;
+  background-color: #fff;
+}
+
+.cerveja:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+  width: 11rem;
+  height: 11rem;
+}
+
+.cerveja-img-block {
+  text-align: center;
+}
+
+.cerveja-img {
+  width: 40%;
+}
+
+.cerveja-nome {
+  color: #a7a7a7;
+  font-size: .9rem;
+}
