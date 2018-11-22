@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+/* 'https://api.punkapi.com/v2/beers' */
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
